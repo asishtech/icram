@@ -48,31 +48,31 @@ export default function About() {
           </div>
 
           <div className="prose prose-gray max-w-none space-y-4">
-            <p className="text-black leading-relaxed">
+            <p className="text-black leading-relaxed text-justify">
               Dear Materials Science Enthusiasts,
             </p>
 
-            <p className="text-black leading-relaxed">
+            <p className="text-black leading-relaxed text-justify">
               Greetings and welcome to the Department of Chemistry at VIT-AP University, Andhra Pradesh, India.
             </p>
 
-            <p className="text-black leading-relaxed">
+            <p className="text-black leading-relaxed text-justify">
               We are delighted to invite you to participate in the <strong>First International Conference on Recent Innovations in Advanced Materials (ICRAM&apos;26)</strong> to be held at <strong>VIT-AP University, Andhra Pradesh, India</strong>, from <strong>July 8-10, 2026</strong>.
             </p>
 
-            <p className="text-black leading-relaxed">
+            <p className="text-black leading-relaxed text-justify">
               ICRAM&apos;26 aims to bring together scientists, researchers, academicians, and industry experts from across the globe to share their latest research findings and innovations in the field of advanced materials. The conference will provide an excellent platform for exchanging ideas, fostering interdisciplinary collaborations, and discussing emerging trends that are shaping the future of materials science and technology.
             </p>
 
-            <p className="text-black leading-relaxed">
+            <p className="text-black leading-relaxed text-justify">
               The conference will feature plenary lectures, keynote lectures, invited talks, and other technical sessions covering a wide range of themes including <strong>Materials Design, Synthesis, and Properties; Energy and Sustainable Materials; High Performance and Functional Materials; Nanomaterials and Nanotechnology; Soft and Biomaterials; and Computational and Data-Driven Materials Design</strong>.
             </p>
 
-            <p className="text-black leading-relaxed">
+            <p className="text-black leading-relaxed text-justify">
               We warmly welcome researchers, academicians, industry professionals, and students to contribute their work and engage in meaningful scientific discussions. ICRAM&apos;26 promises to be a valuable opportunity to enhance scientific knowledge, build professional networks, and explore collaborative research opportunities.
             </p>
 
-            <p className="text-black leading-relaxed">
+            <p className="text-black leading-relaxed text-justify">
               We look forward to your active participation and to welcoming you to <strong>VIT-AP University</strong> for an inspiring and enriching conference experience.
             </p>
 
