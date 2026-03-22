@@ -271,8 +271,7 @@ export default function Registration() {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2.5 px-10 py-4 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 text-white font-semibold text-lg shadow-lg shadow-amber-200/50 hover:shadow-xl hover:shadow-amber-300/50 hover:-translate-y-0.5 transition-all duration-300"
-          >
-            Register Now
+          >Register Now
             <ExternalLink className="w-5 h-5" />
           </a>
           <p className="mt-4 text-sm text-gray-500">
