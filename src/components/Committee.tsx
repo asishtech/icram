@@ -72,26 +72,31 @@ const convenorsData = {
       name: "Dr. Tufan Ghosh",
       title: "Associate Professor",
       institution: "Department of Chemistry, VIT-AP University",
+      image: "/images/committee/tufan-ghosh.avif",
     },
     {
       name: "Dr. Sangeeta Adhikari",
       title: "Associate Professor",
       institution: "Department of Chemistry, VIT-AP University",
+      image: "/images/committee/sangeeta-adhikari.avif",
     },
     {
       name: "Dr. Dasari Bosu Babu",
       title: "Assistant Professor",
       institution: "Department of Chemistry, VIT-AP University",
+      image: "/images/committee/dasari-bosu-babu.avif",
     },
     {
       name: "Dr. Shailja Jain",
       title: "Assistant Professor",
       institution: "Department of Chemistry, VIT-AP University",
+      image: "/images/committee/shailja-jain.avif",
     },
     {
       name: "Dr. Naveen Kumar Reddy Bogireddy",
       title: "Investigador Asociado C",
       institution: "Materials Science Laboratories, ICF-UNAM Mexico",
+      image: "/images/committee/naveen-kumar-reddy.png",
     },
   ],
 };
@@ -132,11 +137,11 @@ const advisoryBoard: {
     { name: "Prof. Guo-Ping Chang-Chien", title: "CENTER, Cheng Shiu University", country: "Taiwan", flag: "🇹🇼", image: "/images/advisory/guo-ping-chang-chien.png" },
     { name: "Dr. Antonio M. Juarez Reyes", title: "ICF-National Autonomous University of Mexico (UNAM)", country: "Mexico", flag: "🇲🇽", image: "/images/advisory/antonio-juarez-reyes.jpeg" },
     { name: "Prof. Maximilian Fichtner", title: "Helmholtz Institute Ulm (HIU), KIT", country: "Germany", flag: "🇩🇪", image: "/images/speakers/image2.jpeg" },
-    { name: "Prof. Yung-Lung Chen", title: "Chang Gung University", country: "Taiwan", flag: "🇹🇼", image: "/images/advisory/yung-lung-chen.png", imagePosition: "left 20%", imageScale: 1.3 },
+    { name: "Prof. Yung-Lung Chen", title: "Chang Gung University", country: "Taiwan", flag: "🇹🇼", image: "/images/advisory/yung-lung-chen-new.png", imagePosition: "center 30%" },
     { name: "Prof. Praveen Sekhar", title: "Washington State University", country: "USA", flag: "🇺🇸", image: "/images/advisory/praveen-sekhar.jpeg" },
     { name: "Prof. Do-Heyoung Kim", title: "Chonnam National University", country: "Republic of Korea", flag: "🇰🇷", image: "/images/speakers/image3.jpeg", imagePosition: "center 20%" },
-    { name: "Prof. Johannes Kastner", title: "University of Stuttgart", country: "Germany", flag: "🇩🇪", image: "/images/speakers/image6.jpeg" },
-    { name: "Dr. Chien-Hsing Wu", title: "Kaohsiung Chang Gung Memorial Hospital", country: "Taiwan", flag: "🇹🇼", image: "/images/advisory/chien-hsing-wu.png" },
+    { name: "Prof. Johannes Kastner", title: "University of Stuttgart", country: "Germany", flag: "🇩🇪", image: "/images/speakers/kastner.png", imagePosition: "center 30%" },
+    { name: "Dr. Chien-Hsing Wu", title: "Kaohsiung Chang Gung Memorial Hospital", country: "Taiwan", flag: "🇹🇼", image: "/images/advisory/chien-hsing-wu.png", imagePosition: "center 30%" },
     { name: "Dr. Nilesh Chodankar", title: "Khalifa University", country: "UAE", flag: "🇦🇪", image: "/images/speakers/image18.jpeg", imagePosition: "center 10%" },
     { name: "Prof. Hugo Olvera-Vargas", title: "National Autonomous University of Mexico (UNAM)", country: "Mexico", flag: "🇲🇽", image: "/images/advisory/hugo-olvera-vargas.png", imagePosition: "center 25%", imageScale: 1.3 },
     { name: "Dr. Shen-Ming Chen", title: "National Taipei University of Technology", country: "Taiwan", flag: "🇹🇼", image: "/images/advisory/shen-ming-chen.png" },
@@ -151,7 +156,7 @@ const advisoryBoard: {
     { name: "Prof. Ravi Kumar N V", title: "IIT Madras", country: "India", flag: "🇮🇳", image: "/images/speakers/image7.jpeg" },
     { name: "Dr. Rajesh Ganesan", title: "IGCAR Kalpakkam", country: "India", flag: "🇮🇳", image: "/images/advisory/rajesh-ganesan.png" },
     { name: "Dr. Sailaja Krishnamurthy", title: "CSIR-NCL Pune", country: "India", flag: "🇮🇳", image: "/images/speakers/image10.png" },
-    { name: "Prof. Shobit Omar", title: "IIT Kanpur", country: "India", flag: "🇮🇳", image: "/images/speakers/image13.jpeg" },
+    { name: "Prof. Shobit Omar", title: "IIT Kanpur", country: "India", flag: "🇮🇳", image: "/images/speakers/image13.jpeg", imagePosition: "center 30%" },
     { name: "Prof. K. Sathiyanarayanan", title: "VIT Chennai", country: "India", flag: "🇮🇳", image: "/images/advisory/k-sathiyanarayanan.jpeg" },
     { name: "Prof. Edamana Prasad", title: "IIT Madras", country: "India", flag: "🇮🇳", image: "/images/advisory/edamana-prasad.jpeg" },
     { name: "Prof. Geetha Manivasagam", title: "VIT Vellore", country: "India", flag: "🇮🇳", image: "/images/advisory/geetha-manivasagam.jpeg", imagePosition: "center 15%", imageScale: 1.25 },
@@ -391,6 +396,9 @@ function ConvenorsTab() {
               title={c.title}
               institution={c.institution}
               size="default"
+              image={c.image}
+              imagePosition={c.imagePosition}
+              imageScale={c.imageScale}
             />
           ))}
         </div>

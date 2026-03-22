@@ -97,7 +97,8 @@ const speakers: Speaker[] = [
     flag: "🇩🇪",
     initials: "JK",
     color: "from-teal to-blue",
-    image: "/images/speakers/image6.jpeg",
+    image: "/images/speakers/kastner.png",
+    imagePosition: "center 30%",
     profile: "Johannes Kästner (born 1978) studied Chemistry and Physics at Vienna University of Technology (Austria). He received is doctorate at Clausthal University of Technology, Germany, in theoretical physics with Peter E. Blöchl in 2004. After a post-doc with Walter Thiel, he moved to the Daresbury Laboratory of the Science and Technology Facilities Council (UK) where he became staff scientist. In 2008 he became assistant professor at the University of Stuttgart, since 2014 he is full professor there. He works on the simulation of reaction mechanisms, quantum tunnelling, and machine learning in computational science.",
   },
   {
@@ -186,6 +187,7 @@ const speakers: Speaker[] = [
     initials: "SO",
     color: "from-blue to-primary",
     image: "/images/speakers/image13.jpeg",
+    imagePosition: "center 30%",
     profile: "Prof. Shobit Omar completed his B.Tech. in Ceramic Engineering from IIT BHU and earned his MS and PhD in Materials Science & Engineering from the University of Florida. He conducted postdoctoral research at Risoe National Laboratory in Denmark and NIMS in Tsukuba, Japan. In 2011, he joined the Department of Materials Science & Engineering at IIT Kanpur as an Assistant Professor and is now a Professor in the same department. Prof. Omar also served as visiting faculty in the Materials Science & Engineering department at the University of Maryland, USA, from 2015-16. His research encompasses the electrically conductive properties of ceramic materials, structure-property correlations, and the development of solid oxide fuel cells, sodium-ion batteries, and supercapacitors. He has authored numerous research articles in international journals focused on materials related to energy storage and conversion devices.",
   },
   {
@@ -211,7 +213,7 @@ const speakers: Speaker[] = [
     initials: "KS",
     color: "from-primary to-blue",
     image: "/images/speakers/image15.png",
-    profile: "Dr. K.S. Suresh is an Associate Professor in the Department of Metallurgical and Materials Engineering at the Indian Institute of Technology (IIT) Roorkee, where he has been a faculty member since 2015. His research focuses on structure-processing-property relationships in advanced materials, with a particular emphasis on crystallographic texture as a key characterization tool. His research group employs multiscale texture analysis, including bulk texture via synchrotron and X-ray diffraction, microtexture using Electron Backscatter Diffraction (EBSD), and Transmission Kikuchi Diffraction (TKD) in SEM. These techniques are applied to investigate deformation mechanisms, recrystallization behaviour, and phase transformations in structural materials (e.g., Ti, Ni, Mg, and Al alloys) as well as functional materials such as shape memory alloys. Additionally, his work explores microstructure control in additive manufacturing.",
+    profile: "Dr. K.S. Suresh is an Associate Professor in the Department of Metallurgical and Materials Engineering at the Indian Institute of Technology (IIT) Roorkee, where he has been a faculty member since 2015. He received his PhD from IISc Bangalore and subsequently carried out postdoctoral research at NIMS, Japan. His research focuses on structure-processing-property relationships in advanced materials, with a particular emphasis on crystallographic texture as a key characterization tool. His research group employs multiscale texture analysis, including bulk texture via synchrotron and X-ray diffraction, microtexture using Electron Backscatter Diffraction (EBSD), and Transmission Kikuchi Diffraction (TKD) in SEM. These techniques are applied to investigate deformation mechanisms, recrystallization behaviour, and phase transformations in structural materials (e.g., Ti, Ni, Mg, and Al alloys) as well as functional materials such as shape memory alloys. Additionally, his work explores microstructure control in additive manufacturing.",
   },
   {
     name: "Prof. R. Arockia Kumar",
@@ -222,7 +224,7 @@ const speakers: Speaker[] = [
     flag: "🇮🇳",
     initials: "AK",
     color: "from-teal to-blue-light",
-    image: "/images/speakers/image16.jpeg",
+    image: "/images/speakers/arockia-kumar.png",
     imagePosition: "center 35%",
     profile: "Dr. R. Arockia Kumar is an Associate Professor in the Department of Metallurgical and Materials Engineering at National Institute of Technology Warangal. Dr. R. Arockia Kumar pursued his Ph.D from Korea Advanced Institute of Science & Technology (KAIST), Daejeon, Korea under the guidance of Prof. Joong Keun Park. During his Ph.D he focused on Shape Memory Properties of Ti-Nb alloy. Later he was a postdoctoral fellow in National Institute for Materials Science (NIMS) Japan where he received NIIMS young researcher award. He joined NIT Warangal in 2014. He has completed several projects from UGC-DAE, NTPC-NETRA, DST-SERB, AUSC, BHEL and he is currently handling two projects from DST and DST-SERB. His research focuses on friction stir processing, biodegradable alloys, shape memory alloys, and advanced materials processing.",
   },
@@ -261,6 +263,7 @@ const speakers: Speaker[] = [
     initials: "SM",
     color: "from-blue-light to-primary",
     image: "/images/speakers/image19.jpeg",
+    imagePosition: "center 30%",
     profile: "Dr. Sandip is a Research Professor at the College of Dentistry and the Convergence Research Centre for the Treatment of Oral Soft Tissue Diseases (MRC), Chosun University, South Korea. Since 2021, he has also been serving as a full-time postdoctoral researcher at the School of Earth Sciences and Environmental Engineering, Gwangju Institute of Science and Technology (GIST), and at Chonnam National University, Gwangju, South Korea. He obtained both his M.Sc. and Ph.D. in Chemistry from the National Institute of Technology, Rourkela, India. Dr. Sandip has authored 51 research articles, holds three patents, and has contributed five book chapters. He is listed among the world's top 2% scientists and is recognized as a highly cited researcher. His research lies at the interface of environmental and materials engineering, with a strong focus on the design and development of multifunctional nanomaterials, metal–organic frameworks, and biomaterials.",
   },
 ];
@@ -733,6 +736,10 @@ export default function Speakers() {
           <div className="text-center">
             <div className="text-4xl font-extrabold text-primary">19+</div>
             <div className="text-sm text-gray-500 mt-1.5">Speakers</div>
+          </div>
+          <div className="text-center">
+            <div className="text-4xl font-extrabold text-primary">15+</div>
+            <div className="text-sm text-gray-500 mt-1.5">Presenting in Person</div>
           </div>
           <div className="text-center">
             <div className="text-4xl font-extrabold text-primary">8</div>

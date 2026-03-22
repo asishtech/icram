@@ -96,8 +96,7 @@ export default function Registration() {
           </h2>
           <div className="mt-3 mx-auto w-24 h-1 rounded-full bg-gradient-to-r from-amber-400 to-yellow-500" />
           <p className="mt-4 text-black max-w-3xl mx-auto text-base sm:text-lg">
-            Secure your spot at ICRAM 2026. Choose the registration category
-            that applies to you.
+            Secure your spot at ICRAM 2026. Flexible registration options available. Choose the registration category that applies to you.
           </p>
         </div>
 
@@ -110,11 +109,6 @@ export default function Registration() {
             <h3 className="text-xl sm:text-2xl font-semibold text-gray-900">
               Registration Fees
             </h3>
-          </div>
-          <div className="prose prose-gray max-w-none">
-            <p className="text-black leading-relaxed text-justify mb-4">
-              Flexible registration options available — secure your spot today!
-            </p>
           </div>
 
           {/* Desktop table */}
@@ -214,7 +208,7 @@ export default function Registration() {
           </div>
 
           {/* Notes */}
-          <div className="prose prose-gray max-w-none">
+          <div className="prose prose-gray max-w-none mt-8">
             <p className="text-black leading-relaxed text-justify mb-4">
               Registration fee includes:
             </p>
