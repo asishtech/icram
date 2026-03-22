@@ -18,6 +18,15 @@ interface AdvisoryMember {
   imageScale?: number;
 }
 
+interface ConvenorMember {
+  name: string;
+  title: string;
+  institution: string;
+  image?: string;
+  imagePosition?: string;
+  imageScale?: number;
+}
+
 const patronsData = {
   chiefPatron: {
     name: "Dr. G. Viswanathan",
@@ -38,7 +47,10 @@ const patronsData = {
   ],
 };
 
-const convenorsData = {
+const convenorsData: {
+  convenors: ConvenorMember[];
+  coConvenors: ConvenorMember[];
+} = {
   convenors: [
     {
       name: "Dr. Pratheep Kumar",
