@@ -21,10 +21,10 @@ const navItems: NavItem[] = [
   { label: "Home", href: "/" },
   {
     label: "About",
-    href: "/welcome",
+    href: "/conference",
     isRoute: true,
     dropdown: [
-      { label: "Welcome Message", href: "/welcome", isRoute: true },
+      { label: "Conference", href: "/conference", isRoute: true },
       { label: "VIT-AP", href: "/vit-ap", isRoute: true },
       { label: "ICF-UNAM", href: "/icf-unam", isRoute: true },
       { label: "CHENG SHIU", href: "/cheng-shiu", isRoute: true },
@@ -60,8 +60,8 @@ const navItems: NavItem[] = [
       { label: "Tourist Attractions", href: "/venue#venue-tab-2", isRoute: true },
     ],
   },
-  { label: "Sponsorship", href: "#sponsorship" },
   { label: "Call for Papers", href: "/call-for-papers", isRoute: true },
+  { label: "Sponsorship", href: "#sponsorship" },
   { label: "Contact", href: "/contact", isRoute: true },
 ];
 

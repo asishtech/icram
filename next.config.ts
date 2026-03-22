@@ -12,6 +12,7 @@ const nextConfig: NextConfig = {
   allowedDevOrigins: [
     'preview-lhlxcqcrzpri.share.sandbox.dev',
     'preview-ttqhjbthrgut.share.sandbox.dev',
+    'preview-ggnjvzjxhtww.share.sandbox.dev',
   ],
 
   // Enable compression
