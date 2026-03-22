@@ -87,6 +87,16 @@ export default function IcfUnamPage() {
               <p className="text-black leading-relaxed text-justify">
                 <strong>Research areas (informal departments):</strong> Biophysics and Materials Science (BiCiM), Nonlinear Phenomena and Complexity (FeNoLyC), Experimental Atomic, Molecular, and Optical Physics (FAMOE), Theoretical and Computational Physics (FiTyC).
               </p>
+              <p className="text-black leading-relaxed">
+                <a
+                  href="https://www.fis.unam.mx/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-amber-600 hover:text-amber-700 underline break-all"
+                >
+                  https://www.fis.unam.mx/
+                </a>
+              </p>
             </div>
           </div>
 
