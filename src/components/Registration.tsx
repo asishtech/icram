@@ -262,20 +262,46 @@ export default function Registration() {
         </div>
 
         {/* Register Now Button */}
-        <div className="text-center mb-16">
-          <a
-            href="https://events.vitap.ac.in/e/three-day-international-conference-on-recent-innovations-in-advanced-materials-icram-26-6cd29be5-0b0c-42a6-b746-dd1a1ad1143c"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 px-10 py-4 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 text-white font-semibold text-lg shadow-lg shadow-amber-200/50 hover:shadow-xl hover:shadow-amber-300/50 hover:-translate-y-0.5 transition-all duration-300"
-          >
-            Register Now
-            <ExternalLink className="w-5 h-5" />
-          </a>
-          <p className="mt-4 text-sm text-gray-500">
-            You will be redirected to the registration portal
-          </p>
-        </div>
+<div className="text-center mb-16">
+  <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+    {/* Indian Participants */}
+    <div className="flex flex-col items-center gap-2">
+      
+        href="https://events.vitap.ac.in/e/three-day-international-conference-on-recent-innovations-in-advanced-materials-icram-26-6cd29be5-0b0c-42a6-b746-dd1a1ad1143c"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2.5 px-10 py-4 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 text-white font-semibold text-lg shadow-lg shadow-amber-200/50 hover:shadow-xl hover:shadow-amber-300/50 hover:-translate-y-0.5 transition-all duration-300"
+      >
+        Register Now
+        <ExternalLink className="w-5 h-5" />
+      </a>
+      <p className="text-sm text-gray-500 font-medium">🇮🇳 For Indian Participants</p>
+    </div>
+
+    {/* Divider */}
+    <div className="hidden sm:block h-16 w-px bg-gray-200" />
+    <div className="block sm:hidden w-16 h-px bg-gray-200" />
+
+    {/* International Participants */}
+    <div className="flex flex-col items-center gap-2">
+      
+        href="https://forms.gle/2qxckNhCLNbQUzUm8"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-2.5 px-10 py-4 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-semibold text-lg shadow-lg shadow-blue-200/50 hover:shadow-xl hover:shadow-blue-300/50 hover:-translate-y-0.5 transition-all duration-300"
+      >
+        Register Now
+        <ExternalLink className="w-5 h-5" />
+      </a>
+      <p className="text-sm text-gray-500 font-medium">🌍 For International Participants</p>
+      <p className="text-xs text-gray-400 italic">Payment link will be shared after registration</p>
+    </div>
+  </div>
+
+  <p className="mt-6 text-sm text-gray-500">
+    You will be redirected to the registration portal
+  </p>
+</div>
 
         {/* Cash Awards Section */}
         <div className="mb-10">
