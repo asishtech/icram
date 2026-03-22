@@ -32,7 +32,7 @@ export default function WelcomePage() {
           {/* Section heading */}
           <div className="text-center mb-14">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight">
-              Welcome To ICRAM&apos;26
+              Welcome to ICRAM&apos;26
             </h2>
             <div className="mt-3 mx-auto w-24 h-1 rounded-full bg-gradient-to-r from-amber-400 to-yellow-500" />
           </div>
