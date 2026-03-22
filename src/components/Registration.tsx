@@ -1,6 +1,3 @@
-
-
-
 "use client";
 
 import { Trophy, CreditCard, Users, ExternalLink, Award, Star } from "lucide-react";
@@ -143,8 +140,9 @@ export default function Registration() {
                 {feeData.map((row, index) => (
                   <tr
                     key={row.category}
-                    className={`transition-colors duration-150 hover:bg-amber-50/60 border-b border-gray-300 ${index % 2 === 0 ? "bg-white" : "bg-gray-50/80"
-                      }`}
+                    className={`transition-colors duration-150 hover:bg-amber-50/60 border-b border-gray-300 ${
+                      index % 2 === 0 ? "bg-white" : "bg-gray-50/80"
+                    }`}
                   >
                     <td className="px-6 py-4 font-medium text-gray-900 border-r border-gray-300">
                       {row.category}
@@ -169,7 +167,7 @@ export default function Registration() {
 
           {/* Mobile card layout */}
           <div className="md:hidden flex flex-col gap-4">
-            {feeData.map((row, index) => (
+            {feeData.map((row) => (
               <div
                 key={row.category}
                 className="rounded-2xl border border-gray-100 shadow-lg overflow-hidden"
@@ -221,7 +219,6 @@ export default function Registration() {
               <span className="mt-0.5 w-2 h-2 rounded-full bg-amber-400 shrink-0" />
               <span>
                 Access to all technical session&apos;s plenary, keynote, and invited lectures.
-
               </span>
             </div>
             <div className="flex items-start gap-2 text-base text-black">
@@ -234,7 +231,6 @@ export default function Registration() {
               <span className="mt-0.5 w-2 h-2 rounded-full bg-amber-400 shrink-0" />
               <span>
                 Conference meals and socials with renowned global materials scientists (for offline participants).
-
               </span>
             </div>
             <div className="flex items-start gap-2 text-base text-black">
@@ -264,19 +260,41 @@ export default function Registration() {
           </div>
         </div>
 
-        {/* Register Now Button */}
-  <div className="text-center mb-16">
+        {/* Action / Registration Buttons Section */}
+        <div className="flex flex-col md:flex-row items-center justify-center gap-8 mb-16">
+          
+          {/* Indian Participants Registration */}
+          <div className="flex flex-col items-center text-center w-full max-w-sm">
+            <a
+              href="https://events.vitap.ac.in/e/three-day-international-conference-on-recent-innovations-in-advanced-materials-icram-26-6cd29be5-0b0c-42a6-b746-dd1a1ad1143c"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center w-full gap-2.5 px-8 py-4 rounded-full bg-gradient-to-r from-[#0f1f3d] to-[#1a2d54] text-white font-semibold text-lg shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300"
+            >
+              Register (Indian Participants)
+              <ExternalLink className="w-5 h-5 shrink-0" />
+            </a>
+            <p className="mt-3 text-sm text-gray-500">
+              You will be redirected to the VIT-AP portal
+            </p>
+          </div>
 
-            href="https://events.vitap.ac.in/e/three-day-international-conference-on-recent-innovations-in-advanced-materials-icram-26-6cd29be5-0b0c-42a6-b746-dd1a1ad1143c"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2.5 px-10 py-4 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 text-white font-semibold text-lg shadow-lg shadow-amber-200/50 hover:shadow-xl hover:shadow-amber-300/50 hover:-translate-y-0.5 transition-all duration-300"
-          >Register Now
-            <ExternalLink className="w-5 h-5" />
-          </a>
-          <p className="mt-4 text-sm text-gray-500">
-            You will be redirected to the registration portal
-          </p>
+          {/* International Participants Registration */}
+          <div className="flex flex-col items-center text-center w-full max-w-sm">
+            <a
+              href="https://forms.gle/2qxckNhCLNbQUzUm8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center justify-center w-full gap-2.5 px-8 py-4 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 text-white font-semibold text-lg shadow-lg shadow-amber-200/50 hover:shadow-xl hover:shadow-amber-300/50 hover:-translate-y-0.5 transition-all duration-300"
+            >
+              Register (International Participants)
+              <ExternalLink className="w-5 h-5 shrink-0" />
+            </a>
+            <p className="mt-3 text-sm font-semibold text-amber-600">
+              (Payment link will be shared after registration)
+            </p>
+          </div>
+
         </div>
 
         {/* Cash Awards Section */}
