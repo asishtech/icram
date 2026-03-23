@@ -261,36 +261,36 @@ export default function Registration() {
         </div>
 
         {/* Action / Registration Buttons Section */}
-        <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-8 mb-16">
-          
+        <div className="flex flex-col md:flex-row items-center justify-center gap-5 md:gap-8 mb-16">
+
           {/* Indian Participants Registration */}
-          <div className="flex flex-col items-center text-center w-full max-w-[420px]">
+          <div className="flex flex-col items-center text-center w-full md:w-auto md:max-w-[420px]">
             <a
               href="https://events.vitap.ac.in/e/three-day-international-conference-on-recent-innovations-in-advanced-materials-icram-26-6cd29be5-0b0c-42a6-b746-dd1a1ad1143c"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center w-full min-h-[64px] gap-2.5 px-6 py-4 rounded-full bg-gradient-to-r from-[#0f1f3d] to-[#1a2d54] text-white font-semibold text-[17px] sm:text-lg shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300"
+              className="flex items-center justify-center w-auto min-w-[280px] sm:min-w-[320px] md:w-full px-5 py-3.5 sm:px-6 sm:py-4 rounded-full bg-gradient-to-r from-[#0f1f3d] to-[#1a2d54] text-white font-semibold text-[15px] sm:text-[17px] shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300"
             >
-              <span className="whitespace-nowrap">Register (Indian Participants)</span>
-              <ExternalLink className="w-5 h-5 shrink-0" />
+              <span className="whitespace-nowrap text-center">Register (Indian Participants)</span>
+              <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 ml-2" />
             </a>
-            <p className="mt-3 text-sm text-gray-500">
+            <p className="mt-2.5 text-xs sm:text-sm text-gray-500 px-2">
               You will be redirected to payment portal
             </p>
           </div>
 
           {/* International Participants Registration */}
-          <div className="flex flex-col items-center text-center w-full max-w-[420px]">
+          <div className="flex flex-col items-center text-center w-full md:w-auto md:max-w-[420px]">
             <a
               href="https://forms.gle/2qxckNhCLNbQUzUm8"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center w-full min-h-[64px] gap-2.5 px-6 py-4 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 text-white font-semibold text-[17px] sm:text-lg shadow-lg shadow-amber-200/50 hover:shadow-xl hover:shadow-amber-300/50 hover:-translate-y-0.5 transition-all duration-300"
+              className="flex items-center justify-center w-auto min-w-[280px] sm:min-w-[320px] md:w-full px-5 py-3.5 sm:px-6 sm:py-4 rounded-full bg-gradient-to-r from-amber-500 to-yellow-500 text-white font-semibold text-[15px] sm:text-[17px] shadow-lg shadow-amber-200/50 hover:shadow-xl hover:shadow-amber-300/50 hover:-translate-y-0.5 transition-all duration-300"
             >
-              <span className="whitespace-nowrap">Register (International Participants)</span>
-              <ExternalLink className="w-5 h-5 shrink-0" />
+              <span className="whitespace-nowrap text-center">Register (International Participants)</span>
+              <ExternalLink className="w-4 h-4 sm:w-5 sm:h-5 shrink-0 ml-2" />
             </a>
-            <p className="mt-3 text-sm font-semibold text-amber-600">
+            <p className="mt-2.5 text-xs sm:text-sm font-semibold text-amber-600 px-2">
               (Payment link will be shared after registration)
             </p>
           </div>
