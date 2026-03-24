@@ -54,7 +54,7 @@ export default function Hero() {
           className="absolute inset-0 w-full h-full object-cover"
           style={{ opacity: 0.15 }}
         >
-          <source src="/videos/atoms.mov" type="video/mp4" />
+          <source src="/video/Atoms.mp4" type="video/mp4" />
         </video>
         {/* Gradient overlay to blend video with background */}
         <div

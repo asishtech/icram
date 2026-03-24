@@ -14,6 +14,7 @@ const nextConfig: NextConfig = {
     'preview-ttqhjbthrgut.share.sandbox.dev',
     'preview-ggnjvzjxhtww.share.sandbox.dev',
     'preview-vijjihyxbnha.share.sandbox.dev',
+    'preview-mmolkfnhsyut.share.sandbox.dev',
   ],
 
   // Enable compression
