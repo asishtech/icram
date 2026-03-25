@@ -138,7 +138,7 @@ export default function Footer() {
               <MapPin className="w-4 h-4 text-[#c8a951] mt-0.5 shrink-0" />
               <div className="flex-1">
                 <a
-                  href="https://www.google.com/maps/place/VIT-AP+University/@16.4937,80.5003,17z"
+                  href="https://maps.app.goo.gl/k2JZwHJ49Lc1zwRk6"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="group text-sm text-gray-400 leading-relaxed hover:text-[#c8a951] transition-colors duration-200 inline-block"

@@ -742,7 +742,7 @@ export default function Speakers() {
             <div className="text-sm text-gray-500 mt-1.5">Presenting in Person</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-extrabold text-primary">8</div>
+            <div className="text-4xl font-extrabold text-primary">8+</div>
             <div className="text-sm text-gray-500 mt-1.5">Countries</div>
           </div>
         </div>

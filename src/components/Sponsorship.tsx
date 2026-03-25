@@ -12,6 +12,8 @@ interface SponsorTier {
   borderGradient: string;
   benefits: string[];
   featured?: boolean;
+  hasGlow?: boolean;
+  stepOffset?: string;
 }
 
 const tiers: SponsorTier[] = [
@@ -32,6 +34,7 @@ const tiers: SponsorTier[] = [
       "Recognition during inaugural and valedictory sessions",
     ],
     featured: true,
+    stepOffset: "lg:-mt-4",
   },
   {
     icon: <Award className="w-8 h-8" />,
@@ -39,15 +42,18 @@ const tiers: SponsorTier[] = [
     price: "\u20B975,000",
     color: "#c8a951",
     colorLight: "#e8d48b",
-    glowColor: "rgba(200,169,81,0.25)",
+    glowColor: "rgba(200,169,81,0.3)",
     borderGradient:
-      "linear-gradient(135deg, #c8a951, #e8d48b 50%, #c8a951)",
+      "linear-gradient(135deg, #c8a951, #e8d48b 30%, #c8a951 50%, #e8d48b 70%, #c8a951)",
     benefits: [
       "Logo on conference website, banners, and brochure",
       "Half-page advertisement in the conference souvenir",
       "Exhibition space with one standee",
       "Recognition during conference sessions",
     ],
+    featured: true,
+    hasGlow: true,
+    stepOffset: "lg:mt-4",
   },
   {
     icon: <Medal className="w-8 h-8" />,
@@ -64,6 +70,7 @@ const tiers: SponsorTier[] = [
       "Exhibition space on conference venue",
       "Recognition during the conference",
     ],
+    stepOffset: "lg:mt-8",
   },
   {
     icon: <Star className="w-8 h-8" />,
@@ -79,6 +86,7 @@ const tiers: SponsorTier[] = [
       "Acknowledgement in conference brochure/souvenir",
       "Recognition during conference sessions",
     ],
+    stepOffset: "lg:mt-12",
   },
 ];
 
@@ -86,17 +94,17 @@ function SponsorCard({ tier }: { tier: SponsorTier }) {
   return (
     <div
       className={`group relative rounded-2xl p-[1.5px] transition-all duration-300 hover:-translate-y-2 ${
-        tier.featured ? "lg:scale-105 lg:-mt-4 lg:mb-4" : ""
-      }`}
+        tier.featured ? "lg:scale-105" : ""
+      } ${tier.stepOffset || ""}`}
       style={{
         background: tier.borderGradient,
-        boxShadow: tier.featured
+        boxShadow: (tier.featured || tier.hasGlow)
           ? `0 0 30px ${tier.glowColor}, 0 0 60px ${tier.glowColor}`
           : "none",
       }}
     >
-      {/* Animated glow ring for Diamond */}
-      {tier.featured && (
+      {/* Animated glow ring for Diamond and Gold */}
+      {(tier.featured || tier.hasGlow) && (
         <div
           className="absolute -inset-[2px] rounded-2xl opacity-60 blur-sm pointer-events-none"
           style={{
@@ -271,7 +279,7 @@ export default function Sponsorship() {
         </div>
 
         {/* Cards grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-start">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 items-start lg:pb-12">
           {tiers.map((tier, index) => (
             <SponsorCard key={index} tier={tier} />
           ))}

@@ -242,6 +242,12 @@ export default function Registration() {
             <div className="flex items-start gap-2 text-base text-black">
               <span className="mt-0.5 w-2 h-2 rounded-full bg-amber-400 shrink-0" />
               <span>
+                Additionally, 18% GST is applicable on the registration fee.
+              </span>
+            </div>
+            <div className="flex items-start gap-2 text-base text-black">
+              <span className="mt-0.5 w-2 h-2 rounded-full bg-amber-400 shrink-0" />
+              <span>
                 Accommodation for the participants is available in the campus on minimal charge.
               </span>
             </div>

@@ -140,10 +140,88 @@ export default function CallForPapers() {
                     </p>
 
                     <div className="bg-amber-50/80 border border-amber-200/60 rounded-xl p-6 mt-6">
-                      <h4 className="text-lg font-semibold text-gray-900 mb-4">
+                      <h4 className="text-lg font-semibold text-gray-900 mb-6">
                         Publication Partners
                       </h4>
-                      <p className="text-gray-600">Will be updated soon</p>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-6">
+                        {/* Nanotechnology Journal */}
+                        <div className="flex flex-col items-center gap-4">
+                          <a
+                            href="https://iopscience.iop.org/journal/0957-4484"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block group"
+                          >
+                            <img
+                              src="/images/publishers/nanotechnology.png"
+                              alt="Nanotechnology Journal"
+                              className="h-40 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+                            />
+                          </a>
+                          <a
+                            href="https://iopscience.iop.org/journal/0957-4484"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-amber-300 text-amber-700 text-xs font-medium rounded-lg hover:bg-amber-50 hover:border-amber-400 transition-all duration-200"
+                          >
+                            Visit Journal
+                            <ExternalLink className="w-3.5 h-3.5" />
+                          </a>
+                        </div>
+
+                        {/* Journal of The Electrochemical Society */}
+                        <div className="flex flex-col items-center gap-4">
+                          <a
+                            href="https://iopscience.iop.org/journal/1945-7111"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block group"
+                          >
+                            <img
+                              src="/images/publishers/jes.png"
+                              alt="Journal of The Electrochemical Society"
+                              className="h-40 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+                            />
+                          </a>
+                          <a
+                            href="https://iopscience.iop.org/journal/1945-7111"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-amber-300 text-amber-700 text-xs font-medium rounded-lg hover:bg-amber-50 hover:border-amber-400 transition-all duration-200"
+                          >
+                            Visit Journal
+                            <ExternalLink className="w-3.5 h-3.5" />
+                          </a>
+                        </div>
+
+                        {/* Nano Express */}
+                        <div className="flex flex-col items-center gap-4">
+                          <a
+                            href="https://iopscience.iop.org/journal/2632-959X"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block group"
+                          >
+                            <img
+                              src="/images/publishers/nano-express.png"
+                              alt="Nano Express"
+                              className="h-40 w-auto object-contain group-hover:scale-105 transition-transform duration-300"
+                            />
+                          </a>
+                          <a
+                            href="https://iopscience.iop.org/journal/2632-959X"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1.5 px-3 py-1.5 bg-white border border-amber-300 text-amber-700 text-xs font-medium rounded-lg hover:bg-amber-50 hover:border-amber-400 transition-all duration-200"
+                          >
+                            Visit Journal
+                            <ExternalLink className="w-3.5 h-3.5" />
+                          </a>
+                        </div>
+                      </div>
+                      <p className="text-sm text-gray-600 italic text-center mt-4">
+                        More will be updated...
+                      </p>
                     </div>
 
                     <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mt-6">

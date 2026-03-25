@@ -123,13 +123,13 @@ export default function Contact() {
 
             {/* Google Maps Embed */}
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=VIT-AP+University,Amaravati,Andhra+Pradesh&destination_place_id=ChIJA3p3p1r7NToRTRPJybz_ZDA"
+              href="https://maps.app.goo.gl/k2JZwHJ49Lc1zwRk6"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 block mb-6 rounded-xl overflow-hidden border border-gray-200 shadow-sm relative group min-h-[300px]"
             >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.644284!2d80.49810741487654!3d16.493700088650985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35fb5ae7770a03%3A0x3064cfa69c9c134d!2sVIT-AP%20University!5e0!3m2!1sen!2sin!4v1647856789123!5m2!1sen!2sin&q=VIT-AP+University"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61209.89251165296!2d80.45627985127415!3d16.494855107721598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35f27d40f21c55%3A0x1490eacd54859850!2sVIT-AP%20University!5e0!3m2!1sen!2sin!4v1774447726814!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: "300px" }}
@@ -150,7 +150,7 @@ export default function Contact() {
 
             <div className="mt-auto bg-gray-50 rounded-xl p-5 border border-gray-100">
               <a
-                href="https://www.google.com/maps/dir/?api=1&destination=VIT-AP+University,Amaravati,Andhra+Pradesh&destination_place_id=ChIJA3p3p1r7NToRTRPJybz_ZDA"
+                href="https://maps.app.goo.gl/k2JZwHJ49Lc1zwRk6"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-start gap-4 text-black hover:text-[#c8a951] transition-colors duration-200 font-medium group mb-4"
