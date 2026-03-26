@@ -230,7 +230,7 @@ const speakers: Speaker[] = [
   },
   {
     name: "Prof. Anantharaj Sengeni",
-    title: "Associate of Indian Academy of Sciences",
+    title: "Assistant Professor of Chemistry",
     awards: [],
     institution: "IIT Kanpur",
     country: "India",
@@ -238,7 +238,7 @@ const speakers: Speaker[] = [
     initials: "AS",
     color: "from-blue to-blue-light",
     image: "/images/speakers/image17.jpeg",
-    profile: "Dr. Anantharaj Sengeni is a Assistant Professor of Chemistry at the Indian Institute of Technology Kanpur, where he leads the Laboratory for Electrocatalysis and Energy (LEE). His research focuses on electrocatalysis for sustainable energy conversion, particularly water splitting, oxygen electrocatalysis, and advanced electrode materials for electrolyzers and metal–air batteries. He has over a decade of experience in applied electrochemistry and solid-state chemistry, including postdoctoral research as a JSPS Fellow in Japan on metal chalcogenide electrocatalysts. He has authored 80+ research articles and 20+ review papers, receiving more than 14,800 citations with an h-index of 52. His work emphasizes scalable, earth-abundant electrocatalyst design. He completed his PhD in 2018 at Academy of Scientific and Innovative Research (AcSIR), CSIR – Central Electrochemical Research Institute, Karaikudi, India.",
+    profile: "Dr. Anantharaj Sengeni is a faculty member in the Department of Chemistry at the Indian Institute of Technology Kanpur, where he leads the Laboratory for Electrocatalysis and Energy (LEE). His research focuses on electrocatalysis for sustainable energy conversion, particularly water splitting, oxygen electrocatalysis, and advanced electrode materials for electrolyzers and metal–air batteries. He has over a decade of experience in applied electrochemistry and solid-state chemistry, including postdoctoral research as a JSPS Fellow in Japan on metal chalcogenide electrocatalysts. He has authored 80+ research articles and 20+ review papers, receiving more than 14,800 citations with an h-index of 52. His work emphasizes scalable, earth-abundant electrocatalyst design. He completed his PhD in 2018 at Academy of Scientific and Innovative Research (AcSIR), CSIR – Central Electrochemical Research Institute, Karaikudi, India.",
   },
   {
     name: "Prof. Nilesh Chodankar",
