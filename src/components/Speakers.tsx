@@ -230,7 +230,7 @@ const speakers: Speaker[] = [
   },
   {
     name: "Prof. Anantharaj Sengeni",
-    title: "Associate of Indian Academy of Sciences",
+    title: "Assistant Professor of Chemistry",
     awards: [],
     institution: "IIT Kanpur",
     country: "India",
