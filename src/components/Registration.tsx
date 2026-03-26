@@ -241,18 +241,6 @@ export default function Registration() {
             </div>
             <div className="flex items-start gap-2 text-base text-black">
               <span className="mt-0.5 w-2 h-2 rounded-full bg-amber-400 shrink-0" />
-              <span>
-                Additionally, 18% GST is applicable on the registration fee.
-              </span>
-            </div>
-            <div className="flex items-start gap-2 text-base text-black">
-              <span className="mt-0.5 w-2 h-2 rounded-full bg-amber-400 shrink-0" />
-              <span>
-                Accommodation for the participants is available in the campus on minimal charge.
-              </span>
-            </div>
-            <div className="flex items-start gap-2 text-base text-black">
-              <span className="mt-0.5 w-2 h-2 rounded-full bg-amber-400 shrink-0" />
               <div>
                 <span className="font-semibold text-[#8B1538]">
                   Pre-conference workshop on 7th July afternoon (for offline participants). The workshop includes:
@@ -269,6 +257,18 @@ export default function Registration() {
                 </ul>
               </div>
             </div>
+            <div className="flex items-start gap-2 text-base text-black">
+  <span className="mt-0.5 w-2 h-2 rounded-full bg-amber-400 shrink-0" />
+  <span className="font-bold">
+    Additionally, 18% GST is applicable on the registration fee.
+  </span>
+</div>
+<div className="flex items-start gap-2 text-base text-black">
+  <span className="mt-0.5 w-2 h-2 rounded-full bg-amber-400 shrink-0" />
+  <span className="font-bold">
+    Accommodation for the participants is available in the campus on minimal charge.
+  </span>
+</div>
           </div>
         </div>
 
