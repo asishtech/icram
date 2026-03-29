@@ -294,6 +294,7 @@ export default function RootLayout({
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#0a1628" />
+        <meta name="google-site-verification" content="9zhD3lE1sm4XoagKHVvtpLZciioHHRkmWj_Yg-1Jv6M" />
         <link rel="manifest" href="/site.webmanifest" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
