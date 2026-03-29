@@ -4,17 +4,18 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL('https://icram.vitap.ac.in'),
   title: {
-    default: "ICRAM 2026 | International Conference on Recent Innovations in Advanced Materials | VIT-AP",
+    default: "ICRAM VITAP 2026 | International Conference on Recent Innovations in Advanced Materials | VIT-AP University",
     template: "%s | ICRAM 2026 | VIT-AP University"
   },
   description:
-    "ICRAM 2026 - 1st International Conference on Recent Innovations in Advanced Materials. July 8-10, 2026 at VIT-AP University, Amaravati, Andhra Pradesh, India. Hybrid Mode Conference featuring 19+ invited speakers from 8 countries. Submit research on nanomaterials, energy storage, biomaterials, computational materials, catalysis. Organized by Department of Chemistry, School of Advanced Sciences, VIT-AP University in collaboration with ICF-UNAM Mexico & Cheng Shiu University Taiwan. Register now for paper presentations, workshops, and networking opportunities.",
+    "ICRAM VITAP 2026 - Official website. 1st International Conference on Recent Innovations in Advanced Materials at VIT-AP University, Amaravati, Andhra Pradesh, India. July 8-10, 2026. Hybrid Mode Conference featuring 19+ invited speakers from 8 countries. Submit research on nanomaterials, energy storage, biomaterials, computational materials, catalysis. Organized by Department of Chemistry, School of Advanced Sciences, VIT-AP University in collaboration with ICF-UNAM Mexico & Cheng Shiu University Taiwan. Register now for paper presentations, workshops, and networking opportunities.",
   keywords: [
-    // Primary Conference Keywords
+    // Primary Conference Keywords - Most Important
+    "ICRAM VITAP",
+    "ICRAM VIT-AP",
+    "ICRAM VITAP 2026",
     "ICRAM 2026",
     "ICRAM conference",
-    "ICRAM VIT-AP",
-    "ICRAM VITAP",
     "ICRAM Amaravati",
     "International Conference Advanced Materials 2026",
     "Recent Innovations Advanced Materials",
@@ -25,6 +26,7 @@ export const metadata: Metadata = {
     "VIT-AP University",
     "VIT AP",
     "VITAP",
+    "VIT-AP Amaravati",
     "Amaravati conference",
     "Andhra Pradesh conference",
 
@@ -98,27 +100,27 @@ export const metadata: Metadata = {
     telephone: false,
   },
   openGraph: {
-    title: "ICRAM 2026 | International Conference on Recent Innovations in Advanced Materials | VIT-AP",
+    title: "ICRAM VITAP 2026 | International Conference on Recent Innovations in Advanced Materials | VIT-AP University",
     description:
-      "Join researchers worldwide at ICRAM 2026 - July 8-10, 2026 at VIT-AP University, Amaravati, India. 19+ invited speakers, 8 countries. Submit your research in advanced materials, nanomaterials, energy materials, biomaterials. Hybrid mode conference with pre-conference workshop.",
+      "ICRAM VITAP 2026 - Official Conference Website. Join researchers worldwide at VIT-AP University, Amaravati, India. July 8-10, 2026. 19+ invited speakers, 8 countries. Submit your research in advanced materials, nanomaterials, energy materials, biomaterials. Hybrid mode conference with pre-conference workshop.",
     url: "https://icram.vitap.ac.in",
     type: "website",
     locale: "en_US",
-    siteName: "ICRAM 2026 - VIT-AP University",
+    siteName: "ICRAM VITAP 2026 - VIT-AP University",
     images: [
       {
         url: "/icram-logo.png",
         width: 1200,
         height: 630,
-        alt: "ICRAM 2026 - International Conference on Recent Innovations in Advanced Materials at VIT-AP University",
+        alt: "ICRAM VITAP 2026 - International Conference on Recent Innovations in Advanced Materials at VIT-AP University",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ICRAM 2026 | International Conference on Advanced Materials | VIT-AP",
+    title: "ICRAM VITAP 2026 | International Conference on Advanced Materials | VIT-AP",
     description:
-      "1st International Conference on Recent Innovations in Advanced Materials. July 8-10, 2026, VIT-AP University, Amaravati, India. 19+ invited speakers. Hybrid mode.",
+      "ICRAM VITAP 2026 - Official website. 1st International Conference on Recent Innovations in Advanced Materials. July 8-10, 2026, VIT-AP University, Amaravati, India. 19+ invited speakers. Hybrid mode.",
     images: ["/icram-logo.png"],
   },
   robots: {
@@ -147,10 +149,10 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Event",
-  name: "ICRAM 2026 - 1st International Conference on Recent Innovations in Advanced Materials",
-  alternateName: "ICRAM 2026",
+  name: "ICRAM VITAP 2026 - 1st International Conference on Recent Innovations in Advanced Materials",
+  alternateName: ["ICRAM 2026", "ICRAM VITAP", "ICRAM VIT-AP"],
   description:
-    "International conference bringing together researchers, academicians, and industry professionals in advanced materials science. Features plenary lectures, keynotes, oral and poster presentations on topics including nanomaterials, energy materials, biomaterials, and computational materials research.",
+    "ICRAM VITAP 2026 - Official website for the 1st International Conference on Recent Innovations in Advanced Materials at VIT-AP University. International conference bringing together researchers, academicians, and industry professionals in advanced materials science. Features plenary lectures, keynotes, oral and poster presentations on topics including nanomaterials, energy materials, biomaterials, and computational materials research.",
   startDate: "2026-07-08T09:00:00+05:30",
   endDate: "2026-07-10T18:00:00+05:30",
   eventAttendanceMode: "https://schema.org/MixedEventAttendanceMode",
