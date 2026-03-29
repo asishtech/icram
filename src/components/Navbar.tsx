@@ -48,6 +48,7 @@ const navItems: NavItem[] = [
       { label: "Themes", href: "#themes" },
       { label: "Speakers", href: "#speakers" },
       { label: "Important Dates", href: "#timeline" },
+      { label: "Brochure", href: "/brochure", isRoute: true },
     ],
   },
   {
