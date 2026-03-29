@@ -113,32 +113,49 @@ const convenorsData: {
   ],
 };
 
-const organizingCommittee = [
-  { name: "Dr. Paramasivam R", title: "Professor" },
-  { name: "Prof. Selvakumar Karuthapandi", title: "Professor" },
-  { name: "Dr. Naga Prasad Puvvada", title: "Associate Professor" },
-  { name: "Dr. T Ramana", title: "Associate Professor" },
-  { name: "Dr. Chalasani Rajesh", title: "Associate Professor" },
-  { name: "Dr. Dripta De Joarder", title: "Associate Professor" },
-  { name: "Dr. Sachil Sharma", title: "Associate Professor" },
-  { name: "Dr. Rajarshi Sarkar", title: "Associate Professor" },
-  { name: "Dr. Muthu Prabhu S", title: "Assistant Professor" },
-  { name: "Dr. Manas Ranjan Dash", title: "Associate Professor" },
-  { name: "Dr. A V Narendra Kumar", title: "Associate Professor" },
-  { name: "Dr. Sabeel M Basheer", title: "Assistant Professor" },
-  { name: "Dr. Soumyakanta Prusty", title: "Assistant Professor" },
-  { name: "Dr. Debakanta Tripathy", title: "Assistant Professor" },
-  { name: "Dr. V V Sreenivasu M", title: "Assistant Professor" },
-  { name: "Dr. Moru Satyanarayana", title: "Assistant Professor" },
-  { name: "Dr. Sandhya Sadanandan", title: "Assistant Professor" },
-  { name: "Dr. Turbasu Sengupta", title: "Assistant Professor" },
-  { name: "Dr. Ritambhara Sharma", title: "Assistant Professor" },
-  { name: "Dr. Bibhab Bandhu Mazumdar", title: "Assistant Professor" },
-  { name: "Dr. Gangadhar Pamarthi", title: "Assistant Professor" },
-  { name: "Dr. Koteswara Rao Gorantla", title: "Assistant Professor" },
-  { name: "Dr. Rajashree Naik", title: "Assistant Professor" },
-  { name: "Dr. Tathagata Kar", title: "Investigador Asociado C", institution: "ICF-UNAM Mexico" },
-];
+const organizingCommittee: {
+  chemistry: { name: string; title: string; institution?: string }[];
+  physics: { name: string; title: string; institution?: string }[];
+} = {
+  chemistry: [
+    { name: "Dr. Paramasivam R", title: "Professor" },
+    { name: "Prof. Selvakumar Karuthapandi", title: "Professor" },
+    { name: "Dr. Naga Prasad Puvvada", title: "Associate Professor" },
+    { name: "Dr. T Ramana", title: "Associate Professor" },
+    { name: "Dr. Chalasani Rajesh", title: "Associate Professor" },
+    { name: "Dr. Dripta De Joarder", title: "Associate Professor" },
+    { name: "Dr. Sachil Sharma", title: "Associate Professor" },
+    { name: "Dr. Rajarshi Sarkar", title: "Associate Professor" },
+    { name: "Dr. Muthu Prabhu S", title: "Assistant Professor" },
+    { name: "Dr. Manas Ranjan Dash", title: "Associate Professor" },
+    { name: "Dr. A V Narendra Kumar", title: "Associate Professor" },
+    { name: "Dr. Sabeel M Basheer", title: "Assistant Professor" },
+    { name: "Dr. Soumyakanta Prusty", title: "Assistant Professor" },
+    { name: "Dr. Debakanta Tripathy", title: "Assistant Professor" },
+    { name: "Dr. V V Sreenivasu M", title: "Assistant Professor" },
+    { name: "Dr. Moru Satyanarayana", title: "Assistant Professor" },
+    { name: "Dr. Sandhya Sadanandan", title: "Assistant Professor" },
+    { name: "Dr. Turbasu Sengupta", title: "Assistant Professor" },
+    { name: "Dr. Ritambhara Sharma", title: "Assistant Professor" },
+    { name: "Dr. Bibhab Bandhu Mazumdar", title: "Assistant Professor" },
+    { name: "Dr. Gangadhar Pamarthi", title: "Assistant Professor" },
+    { name: "Dr. Koteswara Rao Gorantla", title: "Assistant Professor" },
+    { name: "Dr. Rajashree Naik", title: "Assistant Professor" },
+    { name: "Dr. B. V. Gokulnath", title: "Assistant Professor" },
+    { name: "Dr. Tathagata Kar", title: "Investigador Asociado C", institution: "ICF-UNAM Mexico" },
+  ],
+  physics: [
+    { name: "Dr. K Senthil", title: "Professor HAG" },
+    { name: "Dr. Virendra Kumar Verma", title: "Associate Professor" },
+    { name: "Dr. Prabhakaran Thandapani", title: "Associate Professor" },
+    { name: "Dr. M. Muneeswaran", title: "Associate Professor" },
+    { name: "Dr. Sudharshan Vadnala", title: "Associate Professor" },
+    { name: "Dr. Lakshmi Sowjanya Pali", title: "Assistant Professor" },
+    { name: "Dr. S Dasaradha Rama Rao", title: "Assistant Professor" },
+    { name: "Dr. Nallamuthu S", title: "Assistant Professor" },
+    { name: "Dr. Dwarasala Adilakshmi", title: "Assistant Professor" },
+  ],
+};
 
 const advisoryBoard: {
   international: AdvisoryMember[];
@@ -421,23 +438,47 @@ function ConvenorsTab() {
 
 function OrganizingTab() {
   return (
-    <div>
-      <SectionLabel icon={<Users className="w-4 h-4 text-[var(--accent)]" />}>
-        Organizing Committee Members
-      </SectionLabel>
-      <p className="text-sm text-[var(--gray-600)] mb-6 -mt-3 ml-11">
-        Department of Chemistry, VIT-AP University (unless otherwise noted)
-      </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-        {organizingCommittee.map((m) => (
-          <MemberCard
-            key={m.name}
-            name={m.name}
-            title={m.title}
-            institution={m.institution}
-            size="compact"
-          />
-        ))}
+    <div className="space-y-10">
+      {/* Chemistry Department */}
+      <div>
+        <SectionLabel icon={<Users className="w-4 h-4 text-[var(--accent)]" />}>
+          Department of Chemistry
+        </SectionLabel>
+        <p className="text-sm text-[var(--gray-600)] mb-6 -mt-3 ml-11">
+          VIT-AP University (unless otherwise noted)
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          {organizingCommittee.chemistry.map((m) => (
+            <MemberCard
+              key={m.name}
+              name={m.name}
+              title={m.title}
+              institution={m.institution}
+              size="compact"
+            />
+          ))}
+        </div>
+      </div>
+
+      {/* Physics Department */}
+      <div>
+        <SectionLabel icon={<Users className="w-4 h-4 text-[var(--accent)]" />}>
+          Department of Physics
+        </SectionLabel>
+        <p className="text-sm text-[var(--gray-600)] mb-6 -mt-3 ml-11">
+          VIT-AP University
+        </p>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          {organizingCommittee.physics.map((m) => (
+            <MemberCard
+              key={m.name}
+              name={m.name}
+              title={m.title}
+              institution={m.institution}
+              size="compact"
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

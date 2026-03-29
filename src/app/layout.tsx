@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://icram2026.vitap.ac.in'),
+  metadataBase: new URL('https://icram.vitap.ac.in'),
   title: {
     default: "ICRAM 2026 | International Conference on Recent Innovations in Advanced Materials | VIT-AP",
     template: "%s | ICRAM 2026 | VIT-AP University"
@@ -101,7 +101,7 @@ export const metadata: Metadata = {
     title: "ICRAM 2026 | International Conference on Recent Innovations in Advanced Materials | VIT-AP",
     description:
       "Join researchers worldwide at ICRAM 2026 - July 8-10, 2026 at VIT-AP University, Amaravati, India. 19+ invited speakers, 8 countries. Submit your research in advanced materials, nanomaterials, energy materials, biomaterials. Hybrid mode conference with pre-conference workshop.",
-    url: "https://icram2026.vitap.ac.in",
+    url: "https://icram.vitap.ac.in",
     type: "website",
     locale: "en_US",
     siteName: "ICRAM 2026 - VIT-AP University",
@@ -133,7 +133,7 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://icram2026.vitap.ac.in",
+    canonical: "https://icram.vitap.ac.in",
   },
   verification: {
     google: "",
@@ -176,7 +176,7 @@ const jsonLd = {
     "@type": "Organization",
     name: "Department of Chemistry, School of Advanced Sciences, VIT-AP University",
     url: "https://vitap.ac.in",
-    logo: "https://icram2026.vitap.ac.in/images/vitap-logo-white.png",
+    logo: "https://icram.vitap.ac.in/images/vitap-logo-white.png",
   },
   performer: [
     {
@@ -216,7 +216,7 @@ const jsonLd = {
       price: "3000",
       priceCurrency: "INR",
       availability: "https://schema.org/InStock",
-      url: "https://icram2026.vitap.ac.in/registration",
+      url: "https://icram.vitap.ac.in/registration",
       validFrom: "2026-01-01",
     },
     {
@@ -225,7 +225,7 @@ const jsonLd = {
       price: "3500",
       priceCurrency: "INR",
       availability: "https://schema.org/InStock",
-      url: "https://icram2026.vitap.ac.in/registration",
+      url: "https://icram.vitap.ac.in/registration",
       validFrom: "2026-01-01",
     },
     {
@@ -234,12 +234,12 @@ const jsonLd = {
       price: "150",
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
-      url: "https://icram2026.vitap.ac.in/registration",
+      url: "https://icram.vitap.ac.in/registration",
       validFrom: "2026-01-01",
     },
   ],
-  image: "https://icram2026.vitap.ac.in/icram-logo.png",
-  url: "https://icram2026.vitap.ac.in",
+  image: "https://icram.vitap.ac.in/icram-logo.png",
+  url: "https://icram.vitap.ac.in",
   subEvent: [
     {
       "@type": "Event",

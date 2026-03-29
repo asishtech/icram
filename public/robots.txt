@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://icram2026.vitap.ac.in/sitemap.xml
+Sitemap: https://icram.vitap.ac.in/sitemap.xml
