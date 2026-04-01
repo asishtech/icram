@@ -12,25 +12,32 @@ interface FeeRow {
 
 const feeData: FeeRow[] = [
   {
-    category: "Student",
+    category: "Students/Scholars",
     indianOffline: "\u20B93,000",
     indianOnline: "\u20B92,000",
     foreignOffline: "$150",
     foreignOnline: "$100",
   },
   {
-    category: "Academician",
+    category: "Academicians",
     indianOffline: "\u20B93,500",
     indianOnline: "\u20B92,500",
     foreignOffline: "$200",
     foreignOnline: "$150",
   },
   {
-    category: "Industry/R&D",
+    category: "Industry/R&D personals",
     indianOffline: "\u20B94,000",
     indianOnline: "\u20B93,000",
     foreignOffline: "$250",
     foreignOnline: "$200",
+  },
+  {
+    category: "Group (Students/Scholars) – 3 Persons",
+    indianOffline: "\u20B98,000",
+    indianOnline: "Not applicable",
+    foreignOffline: "Not applicable",
+    foreignOnline: "$250",
   },
 ];
 

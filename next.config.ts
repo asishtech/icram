@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
 
   // Allow preview domains for development
   allowedDevOrigins: [
+    'preview-emxnoxxlrxtb.share.sandbox.dev',
     'preview-lhlxcqcrzpri.share.sandbox.dev',
     'preview-ttqhjbthrgut.share.sandbox.dev',
     'preview-ggnjvzjxhtww.share.sandbox.dev',
