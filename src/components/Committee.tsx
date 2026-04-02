@@ -147,7 +147,6 @@ const organizingCommittee = [
   { name: "Dr. S Dasaradha Rama Rao", title: "Assistant Professor" },
   { name: "Dr. Nallamuthu S", title: "Assistant Professor" },
   { name: "Dr. Dwarasala Adilakshmi", title: "Assistant Professor" },
-  { name: "Dr. B. V. Gokulnath", title: "Assistant Professor" },
 ];
 
 const advisoryBoard: {
