@@ -27,9 +27,9 @@ const events: TimelineEvent[] = [
   {
     icon: CalendarClock,
     date: "15th May 2026",
-    title: "Deadline for Registration",
+    title: "Deadline for Registration & Abstract Submission",
     description:
-      "Last date to complete your registration for the conference.",
+      "Last date to complete your registration and abstract submission for the conference.",
   },
   {
     icon: Bell,
