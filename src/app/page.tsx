@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import WorkshopBanner from "@/components/WorkshopBanner";
+import ConferenceHighlight from "@/components/ConferenceHighlight";
 import About from "@/components/About";
 import Themes from "@/components/Themes";
 import Speakers from "@/components/Speakers";
@@ -52,6 +53,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <WorkshopBanner />
+      <ConferenceHighlight />
       <Timeline />
       <Themes />
       <Speakers />
