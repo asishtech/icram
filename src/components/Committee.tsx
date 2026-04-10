@@ -115,7 +115,7 @@ const convenorsData: {
 
 const organizingCommittee = [
   { name: "Dr. Paramasivam R", title: "Professor" },
-  { name: "Prof. Selvakumar Karuthapandi", title: "Professor" },
+  { name: "Dr. Selvakumar Karuthapandi", title: "Professor" },
   { name: "Dr. Naga Prasad Puvvada", title: "Associate Professor" },
   { name: "Dr. T Ramana", title: "Associate Professor" },
   { name: "Dr. Chalasani Rajesh", title: "Associate Professor" },
