@@ -7,6 +7,7 @@ import WorkshopBanner from "@/components/WorkshopBanner";
 import ConferenceHighlight from "@/components/ConferenceHighlight";
 import About from "@/components/About";
 import Themes from "@/components/Themes";
+import ChiefGuest from "@/components/ChiefGuest";
 import Speakers from "@/components/Speakers";
 import Timeline from "@/components/Timeline";
 import Sponsorship from "@/components/Sponsorship";
@@ -56,6 +57,7 @@ export default function Home() {
       <ConferenceHighlight />
       <Timeline />
       <Themes />
+      <ChiefGuest />
       <Speakers />
       <About />
       <Sponsorship />
