@@ -57,7 +57,7 @@ export default function ConferenceHighlight() {
         {/* Why you should attend - Cards */}
         <div className="mb-12">
           <h3 className="text-2xl md:text-3xl font-bold text-white text-center mb-8">
-            🎓 Why You Should Attend
+            🎓 Why You Should Attend In Person
           </h3>
 
           <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
