@@ -3,6 +3,7 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
 import { useRouter, usePathname } from "next/navigation";
+import Image from "next/image";
 
 interface NavDropdownItem {
   label: string;
@@ -257,10 +258,10 @@ export default function Navbar() {
               onClick={(e) => { e.preventDefault(); handleNavClick("/"); }}
               className="flex-shrink-0 flex items-center gap-1.5 sm:gap-2 md:gap-3"
             >
-              <img src="/images/vitap-logo-new.png" alt="VIT AP" className="h-8 sm:h-10 md:h-12 lg:h-14 w-auto object-contain" />
+              <Image src="/images/vitap-logo-new.png" alt="VIT AP" width={120} height={56} quality={90} priority className="h-8 sm:h-10 md:h-12 lg:h-14 w-auto object-contain" />
               <div className="h-6 sm:h-8 md:h-10 w-px bg-gray-400/30" />
-              <img src="/images/Logos_ICF1.png" alt="Universidad" className="h-8 sm:h-10 md:h-12 lg:h-14 w-auto object-contain" />
-              <img src="/images/csu-logo.png" alt="CSU" className="h-9 sm:h-11 md:h-14 lg:h-16 w-auto object-contain" />
+              <Image src="/images/Logos_ICF1.png" alt="Universidad" width={120} height={56} quality={90} priority className="h-8 sm:h-10 md:h-12 lg:h-14 w-auto object-contain" />
+              <Image src="/images/csu-logo.png" alt="CSU" width={120} height={64} quality={90} priority className="h-9 sm:h-11 md:h-14 lg:h-16 w-auto object-contain" />
             </a>
 
             {/* Desktop Navigation - Right Side */}

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { ChevronDown } from "lucide-react";
+import Image from "next/image";
 
 interface TimeLeft {
   days: number;
@@ -124,9 +125,13 @@ export default function Hero() {
           className={`mb-3 transition-all delay-300 duration-700 ${mounted ? "translate-y-0 opacity-100" : "translate-y-6 opacity-0"
             }`}
         >
-          <img
+          <Image
             src="/images/icram-logo-new.png"
             alt="ICRAM '26 - International Conference on Recent Innovations in Advanced Materials"
+            width={400}
+            height={192}
+            priority
+            quality={90}
             className="h-24 w-auto sm:h-32 md:h-40 lg:h-48 object-contain"
           />
         </h1>

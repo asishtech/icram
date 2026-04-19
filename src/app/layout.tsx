@@ -245,16 +245,126 @@ const jsonLd = {
       "@type": "Event",
       name: "Plenary Lectures",
       description: "Keynote presentations by distinguished speakers from around the world",
+      startDate: "2026-07-08T09:00:00+05:30",
+      endDate: "2026-07-10T12:00:00+05:30",
+      eventAttendanceMode: "https://schema.org/MixedEventAttendanceMode",
+      eventStatus: "https://schema.org/EventScheduled",
+      location: {
+        "@type": "Place",
+        name: "VIT-AP University Conference Hall",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "Near Vijayawada",
+          addressLocality: "Amaravati",
+          addressRegion: "Andhra Pradesh",
+          postalCode: "522237",
+          addressCountry: "IN",
+        },
+      },
+      organizer: {
+        "@type": "Organization",
+        name: "Department of Chemistry, School of Advanced Sciences, VIT-AP University",
+        url: "https://vitap.ac.in",
+      },
+      performer: [
+        {
+          "@type": "Person",
+          name: "Prof. S. Sampath",
+          affiliation: {
+            "@type": "Organization",
+            name: "Indian Institute of Science, Bangalore",
+          },
+        },
+        {
+          "@type": "Person",
+          name: "Prof. Maximilian Fichtner",
+          affiliation: {
+            "@type": "Organization",
+            name: "Helmholtz Institute Ulm, KIT",
+          },
+        },
+      ],
+      image: "https://icram.vitap.ac.in/icram-logo.png",
+      offers: {
+        "@type": "Offer",
+        name: "Conference Registration",
+        url: "https://icram.vitap.ac.in/registration",
+        availability: "https://schema.org/InStock",
+      },
     },
     {
       "@type": "Event",
       name: "Oral Presentations",
-      description: "Research paper presentations in various tracks",
+      description: "Research paper presentations in various tracks including nanomaterials, energy materials, biomaterials, and computational materials science",
+      startDate: "2026-07-08T14:00:00+05:30",
+      endDate: "2026-07-10T17:00:00+05:30",
+      eventAttendanceMode: "https://schema.org/MixedEventAttendanceMode",
+      eventStatus: "https://schema.org/EventScheduled",
+      location: {
+        "@type": "Place",
+        name: "VIT-AP University Presentation Halls",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "Near Vijayawada",
+          addressLocality: "Amaravati",
+          addressRegion: "Andhra Pradesh",
+          postalCode: "522237",
+          addressCountry: "IN",
+        },
+      },
+      organizer: {
+        "@type": "Organization",
+        name: "Department of Chemistry, School of Advanced Sciences, VIT-AP University",
+        url: "https://vitap.ac.in",
+      },
+      performer: {
+        "@type": "PerformingGroup",
+        name: "Conference Participants and Researchers",
+      },
+      image: "https://icram.vitap.ac.in/icram-logo.png",
+      offers: {
+        "@type": "Offer",
+        name: "Presenter Registration",
+        url: "https://icram.vitap.ac.in/registration",
+        availability: "https://schema.org/InStock",
+      },
     },
     {
       "@type": "Event",
       name: "Poster Presentations",
-      description: "Visual presentations of research work",
+      description: "Visual presentations of research work in advanced materials science with interactive discussions",
+      startDate: "2026-07-08T16:00:00+05:30",
+      endDate: "2026-07-10T18:00:00+05:30",
+      eventAttendanceMode: "https://schema.org/MixedEventAttendanceMode",
+      eventStatus: "https://schema.org/EventScheduled",
+      location: {
+        "@type": "Place",
+        name: "VIT-AP University Exhibition Hall",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress: "Near Vijayawada",
+          addressLocality: "Amaravati",
+          addressRegion: "Andhra Pradesh",
+          postalCode: "522237",
+          addressCountry: "IN",
+        },
+      },
+      organizer: {
+        "@type": "Organization",
+        name: "Department of Chemistry, School of Advanced Sciences, VIT-AP University",
+        url: "https://vitap.ac.in",
+      },
+      performer: {
+        "@type": "PerformingGroup",
+        name: "Research Scholars and Poster Presenters",
+      },
+      image: "https://icram.vitap.ac.in/icram-logo.png",
+      offers: {
+        "@type": "Offer",
+        name: "Poster Presenter Registration",
+        url: "https://icram.vitap.ac.in/registration",
+        availability: "https://schema.org/InStock",
+      },
     },
   ],
   about: [
@@ -281,6 +391,97 @@ const jsonLd = {
   ],
   inLanguage: "en",
   isAccessibleForFree: false,
+  doorTime: "2026-07-08T08:30:00+05:30",
+  keywords: "advanced materials, nanomaterials, energy materials, biomaterials, computational materials, materials science conference, international conference 2026",
+  audience: {
+    "@type": "Audience",
+    audienceType: "Researchers, Academicians, PhD Scholars, Postdoctoral Fellows, Industry Professionals, Students",
+  },
+  maximumAttendeeCapacity: 500,
+  typicalAgeRange: "21-65",
+};
+
+// FAQ Schema for better search visibility
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "When is ICRAM 2026 taking place?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "ICRAM 2026 - 1st International Conference on Recent Innovations in Advanced Materials will take place from July 8-10, 2026 at VIT-AP University, Amaravati, Andhra Pradesh, India."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What is the conference mode?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "ICRAM 2026 will be conducted in hybrid mode, allowing both in-person and online participation."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What are the main themes of ICRAM 2026?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "ICRAM 2026 focuses on recent innovations in advanced materials including nanomaterials, energy materials (batteries, fuel cells, solar cells, supercapacitors), biomaterials, computational materials science, catalysis, and electrochemistry."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What is the registration fee?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Registration fees are: Indian Students (Offline) - INR 3000, Indian Academicians (Offline) - INR 3500, International Delegates (Offline) - USD 150. Online participation options are also available."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "What is the deadline for abstract submission?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The deadline for registration and abstract submission is May 15, 2026. Abstract acceptance notifications will be sent by May 25, 2026."
+      }
+    },
+    {
+      "@type": "Question",
+      name: "Who are the invited speakers?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "ICRAM 2026 features 19+ distinguished invited speakers from 8 countries, including Prof. S. Sampath from IISc Bangalore, Prof. Maximilian Fichtner from Helmholtz Institute Ulm, Prof. Vivek Polshettiwar from TIFR Mumbai, and many other renowned experts in materials science."
+      }
+    }
+  ]
+};
+
+// Organization Schema
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  name: "VIT-AP University",
+  alternateName: "Vellore Institute of Technology - Andhra Pradesh",
+  url: "https://vitap.ac.in",
+  logo: "https://icram.vitap.ac.in/images/vitap-logo-white.png",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Near Vijayawada",
+    addressLocality: "Amaravati",
+    addressRegion: "Andhra Pradesh",
+    postalCode: "522237",
+    addressCountry: "IN"
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    contactType: "Conference Inquiries",
+    email: "icram@vitap.ac.in"
+  },
+  sameAs: [
+    "https://vitap.ac.in",
+    "https://icram.vitap.ac.in"
+  ]
 };
 
 export default function RootLayout({
@@ -296,12 +497,16 @@ export default function RootLayout({
         <meta name="theme-color" content="#0a1628" />
         <meta name="google-site-verification" content="9zhD3lE1sm4XoagKHVvtpLZciioHHRkmWj_Yg-1Jv6M" />
         <link rel="manifest" href="/site.webmanifest" />
+        <link rel="icon" href="/icram-logo.png" />
+        <link rel="apple-touch-icon" href="/icram-logo.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
           crossOrigin="anonymous"
         />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
         <link
           href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet"
@@ -309,6 +514,14 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
         />
       </head>
       <body className="antialiased" style={{ fontFamily: "'Inter', system-ui, sans-serif" }} suppressHydrationWarning>
