@@ -93,7 +93,9 @@ export default function CallForPapers() {
                   </div>
 
                   <div className="space-y-4 text-black leading-relaxed">
-                    <p>Submit your abstract now and be part of ICRAM&apos;26!</p>
+                    <p>Submit your abstract now and be part of ICRAM&apos;26!</p><br></br>
+                    <p>All accepted extended abstracts will be published in the Book of Abstracts, to which an online ISBN will be assigned.</p>
+                    
 
                     <div className="flex flex-col gap-4 mt-6">
                       <a
