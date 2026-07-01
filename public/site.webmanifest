@@ -1,0 +1,43 @@
+{
+  "name": "ICRAM 2026 - International Conference on Recent Innovations in Advanced Materials",
+  "short_name": "ICRAM 2026",
+  "description": "1st International Conference on Recent Innovations in Advanced Materials, July 8-10, 2026 at VIT-AP University, Amaravati, India. 19+ invited speakers from 8 countries.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1628",
+  "theme_color": "#0a1628",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icram-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ],
+  "categories": ["education", "conference", "science", "research", "materials"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Register",
+      "short_name": "Register",
+      "description": "Register for ICRAM 2026",
+      "url": "/registration",
+      "icons": [{ "src": "/icram-logo.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Submit Paper",
+      "short_name": "Submit",
+      "description": "Submit your research paper",
+      "url": "/call-for-papers",
+      "icons": [{ "src": "/icram-logo.png", "sizes": "192x192" }]
+    }
+  ]
+}
