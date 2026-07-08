@@ -51,6 +51,7 @@ const navItems: NavItem[] = [
       { label: "Important Dates", href: "#timeline" },
       { label: "Brochure", href: "/brochure", isRoute: true },
       { label: "Conference Schedule", href: "/schedule", isRoute: true },
+      { label: "Inaugural Invitation", href: "/inaugural-invitation", isRoute: true },
     ],
   },
   {
